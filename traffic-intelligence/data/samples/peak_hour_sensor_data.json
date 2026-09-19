@@ -1,0 +1,94 @@
+{
+  "dataset_metadata": {
+    "collection_source": "Metro Traffic Monitoring Authority",
+    "observation_window": "07:00 - 09:00 UTC",
+    "granularity_minutes": 15,
+    "total_sensors": 6
+  },
+  "records": [
+    {
+      "timestamp": "2026-09-19T08:00:00Z",
+      "edge_id": "EDGE_101",
+      "road_name": "Grand Avenue Express",
+      "source_node": "NODE_A",
+      "target_node": "NODE_B",
+      "volume_veh_hr": 4120,
+      "avg_speed_kmh": 14.1,
+      "occupancy_pct": 89.2,
+      "travel_time_sec": 510,
+      "capacity_veh_hr": 3600,
+      "free_flow_speed_kmh": 70.0,
+      "lanes": 3
+    },
+    {
+      "timestamp": "2026-09-19T08:00:00Z",
+      "edge_id": "EDGE_102",
+      "road_name": "North Ring Bypass",
+      "source_node": "NODE_A",
+      "target_node": "NODE_C",
+      "volume_veh_hr": 2280,
+      "avg_speed_kmh": 65.4,
+      "occupancy_pct": 24.8,
+      "travel_time_sec": 110,
+      "capacity_veh_hr": 3000,
+      "free_flow_speed_kmh": 80.0,
+      "lanes": 2
+    },
+    {
+      "timestamp": "2026-09-19T08:00:00Z",
+      "edge_id": "EDGE_103",
+      "road_name": "Bypass Connector East",
+      "source_node": "NODE_C",
+      "target_node": "NODE_B",
+      "volume_veh_hr": 1840,
+      "avg_speed_kmh": 50.8,
+      "occupancy_pct": 25.9,
+      "travel_time_sec": 142,
+      "capacity_veh_hr": 2400,
+      "free_flow_speed_kmh": 60.0,
+      "lanes": 2
+    },
+    {
+      "timestamp": "2026-09-19T08:00:00Z",
+      "edge_id": "EDGE_104",
+      "road_name": "South Waterfront Blvd",
+      "source_node": "NODE_A",
+      "target_node": "NODE_D",
+      "volume_veh_hr": 1510,
+      "avg_speed_kmh": 46.2,
+      "occupancy_pct": 32.1,
+      "travel_time_sec": 155,
+      "capacity_veh_hr": 2200,
+      "free_flow_speed_kmh": 50.0,
+      "lanes": 2
+    },
+    {
+      "timestamp": "2026-09-19T08:00:00Z",
+      "edge_id": "EDGE_105",
+      "road_name": "Waterfront East Link",
+      "source_node": "NODE_D",
+      "target_node": "NODE_B",
+      "volume_veh_hr": 1440,
+      "avg_speed_kmh": 47.9,
+      "occupancy_pct": 30.6,
+      "travel_time_sec": 151,
+      "capacity_veh_hr": 2200,
+      "free_flow_speed_kmh": 50.0,
+      "lanes": 2
+    },
+    {
+      "timestamp": "2026-09-19T08:00:00Z",
+      "edge_id": "EDGE_106",
+      "road_name": "Central Midtown Corridor",
+      "source_node": "NODE_B",
+      "target_node": "NODE_E",
+      "volume_veh_hr": 2810,
+      "avg_speed_kmh": 31.8,
+      "occupancy_pct": 55.4,
+      "travel_time_sec": 226,
+      "capacity_veh_hr": 3200,
+      "free_flow_speed_kmh": 55.0,
+      "lanes": 3
+    }
+  ]
+}

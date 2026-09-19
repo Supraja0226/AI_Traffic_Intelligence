@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "name": "MetroUrbanNetwork",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "EDGE_101",
+      "properties": {
+        "edge_id": "EDGE_101",
+        "road_name": "Grand Avenue Express",
+        "source_node": "NODE_A",
+        "target_node": "NODE_B",
+        "lanes": 3,
+        "capacity_veh_hr": 3600,
+        "free_flow_speed_kmh": 70.0,
+        "length_km": 4.2,
+        "road_type": "PRIMARY_ARTERIAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9851, 40.7484],
+          [-73.9680, 40.7580],
+          [-73.9510, 40.7650]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EDGE_102",
+      "properties": {
+        "edge_id": "EDGE_102",
+        "road_name": "North Ring Bypass",
+        "source_node": "NODE_A",
+        "target_node": "NODE_C",
+        "lanes": 2,
+        "capacity_veh_hr": 3000,
+        "free_flow_speed_kmh": 80.0,
+        "length_km": 4.8,
+        "road_type": "BYPASS_HIGHWAY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9851, 40.7484],
+          [-73.9780, 40.7720],
+          [-73.9580, 40.7850]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EDGE_103",
+      "properties": {
+        "edge_id": "EDGE_103",
+        "road_name": "Bypass Connector East",
+        "source_node": "NODE_C",
+        "target_node": "NODE_B",
+        "lanes": 2,
+        "capacity_veh_hr": 2400,
+        "free_flow_speed_kmh": 60.0,
+        "length_km": 3.6,
+        "road_type": "SECONDARY_ARTERIAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9580, 40.7850],
+          [-73.9510, 40.7650]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EDGE_104",
+      "properties": {
+        "edge_id": "EDGE_104",
+        "road_name": "South Waterfront Blvd",
+        "source_node": "NODE_A",
+        "target_node": "NODE_D",
+        "lanes": 2,
+        "capacity_veh_hr": 2200,
+        "free_flow_speed_kmh": 50.0,
+        "length_km": 3.9,
+        "road_type": "URBAN_BOULEVARD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9851, 40.7484],
+          [-73.9920, 40.7300],
+          [-73.9650, 40.7350]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EDGE_105",
+      "properties": {
+        "edge_id": "EDGE_105",
+        "road_name": "Waterfront East Link",
+        "source_node": "NODE_D",
+        "target_node": "NODE_B",
+        "lanes": 2,
+        "capacity_veh_hr": 2200,
+        "free_flow_speed_kmh": 50.0,
+        "length_km": 3.8,
+        "road_type": "URBAN_BOULEVARD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9650, 40.7350],
+          [-73.9510, 40.7650]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EDGE_106",
+      "properties": {
+        "edge_id": "EDGE_106",
+        "road_name": "Central Midtown Corridor",
+        "source_node": "NODE_B",
+        "target_node": "NODE_E",
+        "lanes": 3,
+        "capacity_veh_hr": 3200,
+        "free_flow_speed_kmh": 55.0,
+        "length_km": 3.4,
+        "road_type": "MAJOR_CORRIDOR"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9510, 40.7650],
+          [-73.9300, 40.7750]
+        ]
+      }
+    }
+  ]
+}

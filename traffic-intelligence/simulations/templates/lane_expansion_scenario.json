@@ -1,0 +1,20 @@
+{
+  "scenario_id": "SIM_SCENARIO_EXPANSION_01",
+  "name": "Grand Avenue Auxiliary Lane Addition",
+  "description": "Simulate adding 1 auxiliary lane to Grand Avenue Express, increasing per-lane capacity from 3,600 to 4,800 veh/hr",
+  "type": "NETWORK_MODIFICATION",
+  "target_edge_id": "EDGE_101",
+  "target_edge_name": "Grand Avenue Express",
+  "modifications": {
+    "current_lanes": 3,
+    "proposed_lanes": 4,
+    "current_capacity_veh_hr": 3600,
+    "proposed_capacity_veh_hr": 4800,
+    "free_flow_speed_kmh": 70.0
+  },
+  "assumptions": [
+    "Simulation and planning advisory only; no municipal construction initiated.",
+    "BPR travel time model recalculated under proposed capacity.",
+    "Assumes constant demand volume to isolate structural capacity gain."
+  ]
+}

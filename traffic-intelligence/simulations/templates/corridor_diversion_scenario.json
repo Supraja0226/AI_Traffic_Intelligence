@@ -1,0 +1,20 @@
+{
+  "scenario_id": "SIM_SCENARIO_DIVERSION_01",
+  "name": "Grand Avenue Severe Congestion Diversion",
+  "description": "Simulate shifting 15% of eastbound volume from Grand Avenue Express to North Ring Bypass & Bypass Connector East",
+  "type": "DIVERSION",
+  "congested_edge_id": "EDGE_101",
+  "congested_edge_name": "Grand Avenue Express",
+  "alternate_path": [
+    { "edge_id": "EDGE_102", "road_name": "North Ring Bypass", "share_pct": 60 },
+    { "edge_id": "EDGE_103", "road_name": "Bypass Connector East", "share_pct": 40 }
+  ],
+  "default_diversion_pct": 15,
+  "min_diversion_pct": 5,
+  "max_diversion_pct": 35,
+  "assumptions": [
+    "Software simulation only. Does not trigger live municipal VMS or signals.",
+    "BPR volume-delay equation applied with alpha=0.15, beta=4.0.",
+    "Diversion compliance rate assumed uniform across corridor users."
+  ]
+}
